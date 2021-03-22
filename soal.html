@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 1080;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body class="d-xl-flex justify-content-xl-center align-items-xl-center" style="background: linear-gradient(#a18cd1, #fbc2eb);height: 1080px;border-right-style: none;">
+    <section style="width: 971.2px;padding: 48px;margin: 0;margin-bottom: 0;margin-left: 0;margin-right: 0;border-radius: 41px;border-top-left-radius: 25;border-top-right-radius: 25;border-bottom-right-radius: 25;border-bottom-left-radius: 25;box-shadow: 0px 6px 12px 0px rgb(137,137,137);background: #ffffff;border-style: none;">
+        <h1 style="border-bottom-style: solid;padding-bottom: 19px;text-align: center;color: var(--pink);">Mari Menghitung Persamaan Kuadrat</h1>
+        <div class="row">
+            <div class="col offset-xl-0 d-xl-flex justify-content-center align-items-center align-content-center align-self-center justify-content-xl-center align-items-xl-center" style="width: 468px;border-right-style: solid;">
+                <form class="justify-content-center align-items-center align-content-center">
+                    <div class="form-group d-xl-flex flex-column align-content-center align-self-center align-items-xl-center">
+                        <h6>Carilah x1 dan x2 pada soal berikut</h6><span style="text-align: center;">Isi * apabila jawaban kamu <br>Akar&nbsp;Imajiner atau Tidak ada akar Real</span>
+                    </div>
+                    <div class="form-group d-xl-flex justify-content-xl-center">
+                      <button class="btn btn-light text-center border rounded-pill border-primary d-xl-flex justify-content-xl-center" type="button" id='soaltampil' onclick="acak()" style="border-radius: 25;background: #ffffff;width: 164.9375px;text-align: center;border-top-left-radius: 25;border-top-right-radius: 25;border-bottom-right-radius: 25;border-bottom-left-radius: 25;border-style: solid;border-color: var(--pink);border-right-color: var(--pink);border-bottom-color: #ed2893;">TAMPILKAN SOAL</button><br>
+                    </div>
+                    <div class="form-group d-xl-flex justify-content-xl-center">
+                      <span id="soal"></span>
+                    </div>
+                    <div class="form-group"><input class="border rounded-pill form-control" type="text" placeholder="X1" style="width: 251px;" id="x1"></div>
+                    <div class="form-group"><input class="border rounded-pill form-control" type="text" placeholder="X2" style="width: 251px;" id="x2"></div>
+                    <div class="form-group d-xl-flex justify-content-xl-center" style="text-align: center;"><button class="btn btn-light text-center border rounded-pill border-primary d-xl-flex justify-content-xl-center" type="button"  onclick="validasi()" style="border-radius: 25;background: #ffffff;width: 131.9375px;text-align: center;border-top-left-radius: 25;border-top-right-radius: 25;border-bottom-right-radius: 25;border-bottom-left-radius: 25;border-style: solid;border-color: var(--pink);border-right-color: var(--pink);border-bottom-color: #ed2893;" >VALIDASI</button></div>
+                </form>
+            </div>
+            <div class="col" style="background: #ffffff;">
+                <div class="text-center"><a class="btn btn-primary border rounded" role="button" href="index.html">Halaman Utama</a></div><span class="d-xl-flex justify-content-xl-center">Bentuk Persamaan : : $ax^2 + bx + c$<br></span><span class="text-left" id="result"></span>
+            </div>
+        </div>
+    </section>
+    <script src="load-mathjax.js"></script>
+    <script src="rumusjson.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
